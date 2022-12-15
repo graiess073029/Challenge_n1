@@ -10,197 +10,7 @@
     font-family: Inter-Bold;
     src:url("assets/fonts/static/Inter-Bold.ttf");
 }
-
-@media screen and (min-width:300px) and (max-width:1000px) {
-    h3:hover{
-        cursor: pointer;
-    }
-    
-    h3,h2,h1{
-        font-family: "Inter-Bold";
-    }
-    
-    
-    *{
-        margin: 0%;
-        padding: 0%;
-        font-family: "Inter";
-    }
-    
-    html{
-        height: 100%;
-    }
-    
-    body{
-        height: 100%;
-    }
-    
-    .root{
-        margin-top: 4%;
-        margin-left: 4%;
-        margin-right: 4%;
-    }
-    
-    .nav{
-        padding-top: 10px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    .links{
-        visibility: hidden;
-        position: absolute;
-        top: 0;
-        left: 60%;
-        height: 50%;
-    }
-
-    .links ul{
-        list-style: none;
-        margin-top: 100%;
-        height: 50%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-    }
-
-    .main_page{
-        margin-top: 7%;
-    }
-
-    .top_article img{
-        width: 100%;
-        height: 200px;
-    }
-
-    .left{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .bottom_article{
-        margin-top: 7%;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .bottom_article h1{
-        font-size: 50px;
-        font-weight: 800;   
-    }
-    
-    .paragraph{
-        margin-top: 3%;
-        height: 100%;
-        font-size: 15px;
-        color:hsl(236, 13%, 42%); ;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-
-    .read{
-        margin-top: 3%;
-        background-color: hsl(5, 85%, 63%);
-        letter-spacing: 5px;
-        width: 100%;
-        padding: 15px;
-        color: hsl(36, 100%, 99%);
-        border: 0ch;
-    }
-
-    .right{
-        margin-top: 7%;
-        background-color: hsl(240, 100%, 5%);
-        color: hsl(36, 100%, 99%);
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        padding-left: 5%;
-        padding-top: 2%;
-        padding-bottom: 2%;
-    }
-
-
-    .right h3{
-        color:hsl(36, 100%, 99%);
-        font-size: 16px;
-        margin-bottom: 3%;
-    
-    }
-
-    .right h1{
-        color: hsl(35, 77%, 62%);
-        font-size: 32px;
-        font-weight: 800;
-        margin-top: 3%;
-        margin-bottom: 7%;
-    }
-
-    .right p{
-        font-size: 15px;
-        color: hsl(233, 8%, 79%);
-        padding-bottom: 5%;
-        border-bottom: 1px solid hsl(233, 8%, 79%);
-        width: 93%;
-    
-    }
-
-    .new{
-        margin-bottom: 3%;
-    }
-
-    .articles{
-        margin-top: 7%;
-        display: flex;
-        flex-direction:column;
-        justify-content: space-between;
-        gap: 25px;
-    }
-    
-    .article img{
-        width: 90px;
-        height: 100%;
-    }
-    
-    .article{
-        display: flex;
-        flex-direction: row;
-        gap: 10px;
-    }
-    
-    .rightarticle{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-    
-    .article h2{
-        color:hsl(233, 8%, 79%);
-        font-size: 32px;
-    }
-    
-    .articles p{
-        color:hsl(236, 13%, 42%);
-        font-size: 15px;
-    }    
-    
-    footer{
-        margin-top:  7%;
-        text-align: center;
-        color: hsl(233, 8%, 79%);
-    }
-    
-    a{
-        text-decoration: none ;
-        color: hsl(240, 100%, 5%);
-    }
-    
-}
-
-@media screen and (min-width:1000px) {
+@media screen and (min-width:1100px) {
     .icon_phone{
         display: none;
     }
@@ -269,7 +79,7 @@
     }
     
     .main_page{
-        margin-top: 5%;
+        margin-top: 7%;
     }
     
     
@@ -410,16 +220,205 @@
         transition: 1s;
     }
     
-    footer{
-        margin-top:  2%;
-        text-align: center;
-        color: hsl(233, 8%, 79%);
+}
+
+@media screen and (min-width:300px) and (max-width:1099px) {
+    h3:hover{
+        cursor: pointer;
     }
     
-    a{
-        text-decoration: none ;
+    h3,h2,h1{
+        font-family: "Inter-Bold";
+    }
+    
+    
+    *{
+        margin: 0%;
+        padding: 0%;
+        font-family: "Inter";
+    }
+    
+    html{
+        height: 100%;
+    }
+    
+    body{
+        height: 100%;
+    }
+
+    #ul *{
+        font-size: 20px;
+        margin-left: 3%;
+        margin-top: 14%;
+        margin-bottom: 14%;
         color: hsl(240, 100%, 5%);
     }
+
+    #nicon{
+        margin-top: 30%;
+    }
+
+    
+    .root{
+        margin-top: 4%;
+        margin-left: 4%;
+        margin-right: 4%;
+        padding-bottom: 4%;
+
+    }
+    
+    .nav{
+        padding-top: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .links{
+        visibility: hidden;
+        position: absolute;
+        top: 0%;
+        left: 30%;
+        height: 100%;
+        width: 70%;
+        margin: 0%;
+    }
+
+    .links ul{
+        list-style: none;
+        margin-top: 20%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main_page{
+        margin-top: 14%;
+    }
+
+    .top_article img{
+        width: 100%;
+        height: 200px;
+    }
+
+    .left{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #nicon:hover{
+        cursor: pointer;
+    }
+
+    .bottom_article{
+        margin-top: 14%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bottom_article h1{
+        font-size: 50px;
+        font-weight: 800;   
+    }
+    
+    .paragraph{
+        margin-top: 3%;
+        height: 100%;
+        font-size: 15px;
+        color:hsl(236, 13%, 42%); ;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .read{
+        margin-top: 3%;
+        background-color: hsl(5, 85%, 63%);
+        letter-spacing: 5px;
+        width: 100%;
+        padding: 15px;
+        color: hsl(36, 100%, 99%);
+        border: 0ch;
+    }
+
+    .right{
+        margin-top: 14%;
+        background-color: hsl(240, 100%, 5%);
+        color: hsl(36, 100%, 99%);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-left: 5%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+
+    .right h3{
+        color:hsl(36, 100%, 99%);
+        font-size: 16px;
+        margin-bottom: 3%;
+    
+    }
+
+    .right h1{
+        color: hsl(35, 77%, 62%);
+        font-size: 32px;
+        font-weight: 800;
+        margin-top: 3%;
+        margin-bottom: 7%;
+    }
+
+    .right p{
+        font-size: 15px;
+        color: hsl(233, 8%, 79%);
+        padding-bottom: 5%;
+        border-bottom: 1px solid hsl(233, 8%, 79%);
+        width: 93%;
+    
+    }
+
+    .new{
+        margin-bottom: 3%;
+    }
+
+    .articles{
+        margin-top: 14%;
+        display: flex;
+        flex-direction:column;
+        justify-content: space-between;
+        gap: 25px;
+    }
+    
+    .article img{
+        width: 90px;
+        height: 100%;
+    }
+    
+    .article{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+    
+    .rightarticle{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .article h2{
+        color:hsl(233, 8%, 79%);
+        font-size: 32px;
+    }
+    
+    .articles p{
+        color:hsl(236, 13%, 42%);
+        font-size: 15px;
+    }    
+
     
     
 }
+
